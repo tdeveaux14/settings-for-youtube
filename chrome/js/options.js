@@ -14,6 +14,7 @@
     document.getElementById('iv_load_policy').checked = items
       .iv_load_policy === '1';
     document.getElementById('autohide').checked = items.autohide === '3';
+    document.getElementById('youthere').checked = items.youthere === '1';
     document.getElementById('suppress_creator_endscreen').checked = items
       .suppress_creator_endscreen === '0';
     document.getElementById('autonav').checked = items.autonav === '2';
@@ -56,6 +57,11 @@
       items.autohide = '3';
     } else {
       items.autohide = '1';
+    }
+    if (document.getElementById('youthere').checked) {
+      items.youthere = '1';
+    } else {
+      items.youthere = '0';
     }
     if (document.getElementById('suppress_creator_endscreen').checked) {
       items.suppress_creator_endscreen = '0';
@@ -100,6 +106,7 @@
     cc_load_policy: '0',
     suggestedQuality: 'auto',
     autohide: '1',
+    youthere: '1',
     suppress_creator_endscreen: '0',
     autonav: '2'
   }, main);

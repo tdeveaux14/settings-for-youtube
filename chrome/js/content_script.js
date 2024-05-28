@@ -56,6 +56,17 @@ const settingsForYouTube = function (items) {
           'yt-html5-player-modules::subtitlesModuleData::module-enabled'
         );
       }
+      if (playerResponse.messages && items.youthere === '0') {
+        let i = 0;
+        let messages = playerResponse.messages;
+        while (i < messages.length) {
+          if (messages[i].youThereRenderer) {
+            messages.splice(i, 1);
+            break;
+          }
+          i += 1;
+        }
+      }
       if (items.suppress_creator_endscreen === '1') {
         delete playerResponse.endscreen;
       }
@@ -352,6 +363,7 @@ window.chrome.storage.local.get({
   cc_load_policy: '0',
   suggestedQuality: 'auto',
   autohide: '1',
+  youthere: '1',
   suppress_creator_endscreen: '0',
   autonav: '2'
 }, main);

@@ -35,6 +35,9 @@
   "playerImproveControlsAutohide": {
     "message": "Improve controls autohide"
   },
+  "playerAllowIdlePause": {
+    "message": "Allow idle pause"
+  },
   "playerAllowEndScreen": {
     "message": "Allow end screen"
   },

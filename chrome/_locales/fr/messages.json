@@ -35,6 +35,9 @@
   "playerImproveControlsAutohide": {
     "message": "Améliorer les contrôles autohide"
   },
+  "playerAllowIdlePause": {
+    "message": "Autoriser la pause inactive"
+  },
   "playerAllowEndScreen": {
     "message": "Autoriser l'écran de fin"
   },
