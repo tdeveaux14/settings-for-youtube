@@ -1,0 +1,53 @@
+{
+  "extensionName": {
+    "message": "Settings for YouTube™"
+  },
+  "extensionDescription": {
+    "message": "Improve YouTube™"
+  },
+  "sectionTitleGeneral": {
+    "message": "General"
+  },
+  "generalAllowTips": {
+    "message": "Allow tips"
+  },
+  "sectionTitlePlayer": {
+    "message": "Player"
+  },
+  "playerAllowAds": {
+    "message": "Allow ads"
+  },
+  "playerAllowPaidPromotionOverlay": {
+    "message": "Allow paid promotion overlay"
+  },
+  "playerAllowAnnotations": {
+    "message": "Allow annotations"
+  },
+  "playerAllowLoudnessNormalization": {
+    "message": "Allow loudness normalization"
+  },
+  "playerAllowSubtitlesAndCc": {
+    "message": "Allow subtitles and CC"
+  },
+  "playerQuality": {
+    "message": "Quality:"
+  },
+  "playerImproveControlsAutohide": {
+    "message": "Improve controls autohide"
+  },
+  "playerAllowEndScreen": {
+    "message": "Allow end screen"
+  },
+  "playerAllowAutoplay": {
+    "message": "Allow autoplay"
+  },
+  "resetExtensionOptionsSectionTitle": {
+    "message": "Reset options"
+  },
+  "resetExtensionOptionsDescription": {
+    "message": "Restore options to their original defaults."
+  },
+  "resetExtensionOptions": {
+    "message": "Reset options"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "extensionName": {
+    "message": "Settings for YouTubeMC"
+  },
+  "extensionDescription": {
+    "message": "Améliorer YouTubeMC"
+  },
+  "sectionTitleGeneral": {
+    "message": "Général"
+  },
+  "generalAllowTips": {
+    "message": "Autoriser les pourboires"
+  },
+  "sectionTitlePlayer": {
+    "message": "Joueur"
+  },
+  "playerAllowAds": {
+    "message": "Autoriser les publicités"
+  },
+  "playerAllowPaidPromotionOverlay": {
+    "message": "Autoriser la superposition de promotion payée"
+  },
+  "playerAllowAnnotations": {
+    "message": "Autoriser les annotations"
+  },
+  "playerAllowLoudnessNormalization": {
+    "message": "Autoriser la normalisation du volume"
+  },
+  "playerAllowSubtitlesAndCc": {
+    "message": "Autoriser les sous-titres et CC"
+  },
+  "playerQuality": {
+    "message": "Qualité:"
+  },
+  "playerImproveControlsAutohide": {
+    "message": "Améliorer les contrôles autohide"
+  },
+  "playerAllowEndScreen": {
+    "message": "Autoriser l'écran de fin"
+  },
+  "playerAllowAutoplay": {
+    "message": "Autoriser la lecture automatique"
+  },
+  "resetExtensionOptionsSectionTitle": {
+    "message": "Réinitialiser les options"
+  },
+  "resetExtensionOptionsDescription": {
+    "message": "Restaurer les options par défaut"
+  },
+  "resetExtensionOptions": {
+    "message": "Réinitialiser les options"
+  }
+}
